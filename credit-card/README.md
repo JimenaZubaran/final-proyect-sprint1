@@ -6,8 +6,8 @@ El usuario no debe poder ingresar un campo vacío*/
 
 1. Preguntar por el numero de tarjeta y Corroborar que el usuario no ingrese un campo vacío
 2. Pasar los numeros a un array en orden inverso
-3. Multiplicar por 2 los numeros de las posiciones pares
-4. Sumar los digitos y nuevos digitos
-5. Comprobar si es una tarjeta valida dividiendo la suma entre 10 y obteniendo modulo 0
+3. Multiplicar por 2 los números de las posiciones pares. Si se obtiene un valor con 2 dígitos, sumar los dígitos entre sí.
+4. Sumar estos nuevos digitos y los demas digitos (posiciones impares)
+5. Comprobar si es una tarjeta valida dividiendo la suma total entre 10 y obteniendo modulo 0
 
 ![Diagrama de flujo credit-card](./assets/images/credit-card.jpeg)
