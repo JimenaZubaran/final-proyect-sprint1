@@ -23,17 +23,17 @@ var cipher = function (string)
     console.log (acsii);
 
 
-   //Aplicar formula de cifreda César con espaciado de 33
+   //Aplicar formula de cifredo César con espaciado de 33
    var n = 33;
-   
-   for (var j=0; j<acsii.length; j++){
+
+   for (var j=0; j < acsii.length; j++){
      var alphabeth = [(acsii[j] - 65 + n) % 26 + 65];
    console.log(alphabeth);
    }
 };
 
 
-
+// Funcion para desencriptar el cifrado cesar
   var decipher = function (variable){
   for(var j = 0; j< variable.length; j++)
     {

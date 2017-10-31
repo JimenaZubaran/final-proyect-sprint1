@@ -2,16 +2,15 @@
 var numbers =[];
 while (numbers.length===0)
 {
-  var numbers = prompt ("Ingresa tu núero de tarjeta de crédito");
+  var numbers = prompt("Ingresa tu núero de tarjeta de crédito");
 }
 console.log(numbers);
 
 
 // Vamos a pasar los datos de la tarjeta a un array de números, separadondo cada elemento por comas, para ello utilizamos los siguientes métodos:
 //Array.from() crea un Array de un objeto iterable.
-// .toString une el array y devuelve una cadena de caracteres que contiene cada elemento del array separado por comas.
-// .map() itera sobre cada uno de los elementos convirtiendolos a número (gracias a la funcion Number), en lugar de string
-var arr= Array.from(numbers.toString()).map(Number);
+//.map() itera sobre cada uno de los elementos convirtiendolos a número (gracias a la funcion Number), en lugar de string
+var arr= Array.from(numbers).map(Number);
 console.log (arr);
 
 // Voltear los elementos del array utilizando el método reverse
